@@ -1,6 +1,8 @@
+import HandPhysicsPage from "@/components/layout/HandPhysicsPage";
+
 const RootPage = () => {
   return (
-    <h1>nextjs</h1>
+    <HandPhysicsPage/>
   );
 }
 
