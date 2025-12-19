@@ -1,0 +1,8 @@
+services:
+  client:
+    build: ./client
+    volumes:
+      - ./client:/container-client:delegated
+      - /container-client/node_modules
+    ports:
+      - "3000:3000"
